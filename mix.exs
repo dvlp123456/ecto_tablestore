@@ -14,7 +14,14 @@ defmodule EctoTablestore.MixProject do
       package: package(),
       deps: deps(),
       docs: docs(),
-      source_url: @source_url
+      source_url: @source_url,
+      test_coverage: [tool: ExCoveralls],
+      preferred_cli_env: [
+        coveralls: :test,
+        "coveralls.detail": :test,
+        "coveralls.post": :test,
+        "coveralls.html": :test
+      ]
     ]
   end
 
@@ -31,7 +38,8 @@ defmodule EctoTablestore.MixProject do
       {:ex_aliyun_ots, "~> 0.12"},
       {:jason, "~> 1.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:hashids, "~> 2.0", optional: true}
+      {:hashids, "~> 2.0", optional: true},
+      {:excoveralls, "~> 0.10", only: :test}
     ]
   end
 
