@@ -5,7 +5,7 @@
 [![Total Download](https://img.shields.io/hexpm/dt/ecto_tablestore.svg)](https://hex.pm/packages/ecto_tablestore)
 [![License](https://img.shields.io/hexpm/l/ecto_tablestore.svg)](https://github.com/edragonconnect/ecto_tablestore/blob/master/LICENSE.md)
 [![Last Updated](https://img.shields.io/github/last-commit/edragonconnect/ecto_tablestore.svg)](https://github.com/edragonconnect/ecto_tablestore/commits/master)
-[![Coverage Status](https://coveralls.io/repos/github/dvlp123456/ecto_tablestore/badge.svg)](https://coveralls.io/github/dvlp123456/ecto_tablestore)
+[![Coverage Status](https://coveralls.io/repos/github/dvlp123456/ecto_tablestore/badge.svg?branch=feature-add_version_control_coverage)](https://coveralls.io/github/dvlp123456/ecto_tablestore?branch=feature-add_version_control_coverage)
 
 ## Notice
 
